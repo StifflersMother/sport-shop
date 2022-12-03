@@ -7,8 +7,7 @@ from telebot import types
 # импорт из файла functions
 from functions import buttons, model_buttons, zayavka_done, poisk_tovar_in_base, tovar, Quantity, rasylka_message
 
-#token = '5380562272:AAFqodiUpENCtx7oD8f5xnbIDNOoxJW6YMY'
-token = '5108031210:AAFO7ACd3yHNEhYIc7OVl-6G4dviPSZNA_8'
+
 bot = telebot.TeleBot(token)
 
 tovar_name = None
